@@ -1,0 +1,33 @@
+.body_background 
+{
+    background-position: center;
+    background-size:contain;
+	background:url(Grass.jpg);
+}
+#myCanvas
+{
+    border-width:10px;
+    border-style:ridge;
+	background-color:forestgreen;
+}
+
+
+#hd3{
+	display: inline-block;
+	color: red;
+	background-color: aliceblue;
+	font-family: fantasy;
+	background-color: rgb(248, 248, 248);
+	animation-name: example;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes example {
+	0%   {color: rgba(55, 0, 255, 0);}
+	25%  {color: rgba(255, 0, 191, 0.336);}
+	50%  {color: rgba(0, 255, 98, 0.438);}
+	100% {color: rgba(128, 0, 28, 0.527);}
+  }
+
+  
